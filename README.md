@@ -172,8 +172,6 @@ pip install -r requirements.txt
 python run_server.py
 ```
 - Open your browser and navigate to: **[http://127.0.0.1:5000](http://127.0.0.1:5000)**
-- Log in using `admin` / `Admin@123` or `analyst` / `Analyst@123`.
-
 ---
 
 ## 8. RUNNING DISTRIBUTED MONITORING AGENTS
@@ -246,28 +244,4 @@ python -m unittest discover tests
 
 ---
 
-## 11. ACADEMIC VIVA & PROJECT PRESENTATION GUIDE
 
-- Review **[docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)** for complete Mermaid diagrams:
-  - System Architecture Diagram
-  - DFD Level 0 (Context Diagram)
-  - DFD Level 1 (Functional Decomposition)
-  - Use Case Diagram
-  - Normalized Entity-Relationship (ER) Diagram
-- Review **[docs/VIVA_QUESTIONS.md](docs/VIVA_QUESTIONS.md)** for 25+ detailed Viva questions and technical answers explaining:
-  - Difference between DoS and DDoS detection algorithms
-  - Mathematical calculation of Z-Score for statistical anomalies
-  - TCP 3-way handshake mechanics and SYN flood backlog exhaustion
-  - Alert de-duplication time windows preventing alert fatigue
-  - Database normalization (3NF) and PBKDF2/SHA-256 password security
-
----
-
-## 12. CONCLUSION & FUTURE ENHANCEMENTS
-
-The Distributed Cyberattack Detection and Alert System provides a complete, robust, academic capstone implementation demonstrating distributed systems, socket/packet parsing, cybersecurity heuristics, and modern web application development.
-
-**Future Enhancements**:
-- Integration with Apache Kafka / RabbitMQ for high-scale enterprise stream ingestion.
-- Machine Learning classification using Random Forest and Deep Autoencoders (e.g., CIC-IDS2017 dataset).
-- Automated IPS inline containment via dynamic SDN (Software Defined Networking) OpenFlow rules.
